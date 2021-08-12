@@ -3,11 +3,8 @@ import marked from 'marked'
 import { MarkdownContext } from '../context/MarkdownContext'
 
 export const MarkedConverter = () => {
-  const { markedVal } = useContext(MarkdownContext)
-  // const [markedVal, setMarkedVal] = useState(
-  //   '# Welcome to my React Markdown Previewer!'
-  // )
-  return <div dangerouslySetInnerHTML={createMarkUp(markedVal)}></div>
+  const { markedVal: val } = useContext(MarkdownContext)
+  return <div dangerouslySetInnerHTML={createMarkUp(val)}></div>
 }
 
 export const createMarkUp = (val) => {
