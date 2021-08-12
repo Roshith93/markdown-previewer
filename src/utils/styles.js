@@ -7,19 +7,13 @@ export const useStyles = makeStyles((theme) => ({
     display:'grid',
     gridAutoFlow: 'column',
     gap: '4',
-    alignContent: 'center',
-    justifyContent: 'center',
   },
   paper: {
     padding: theme.spacing(2),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
   },
-  editor:{
-
-  },
-  preview:{
-
+  editorHeight:{
+    height: '100vh'
   },
   previewRoot: {
     minWidth: 275,
