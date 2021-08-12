@@ -8,8 +8,8 @@ import { MarkedConverter } from './Marked'
 export const Preview = () => {
   const classes = useStyles()
   return (
-    <Paper className={`${classes.paper} ${classes.editorHeight}`} elevation={3}>
-        <Typography gutterBottom variant='h4' >
+    <Paper className={`${classes.paper} ${classes.editorHeight}`} elevation={3}>  
+        <Typography gutterBottom variant='h4'>
           Preview
         </Typography>
         <Typography gutterBottom component='div'>

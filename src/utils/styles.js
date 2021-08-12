@@ -13,11 +13,11 @@ export const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
   },
   editorHeight:{
-    height: '100vh'
+    height: 'auto',
+    maxWidth: '50vw',
+    overflow:'scroll'
   },
-  previewRoot: {
-    minWidth: 275,
-  },
+ 
   bullet: {
     display: 'inline-block',
     margin: '0 2px',
