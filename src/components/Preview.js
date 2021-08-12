@@ -3,11 +3,9 @@ import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
 import CardActions from '@material-ui/core/CardActions'
 import Button from '@material-ui/core/Button'
-import ReactDOM from 'react-dom';
 
 import { useStyles } from '../utils/styles'
 import {MarkedConverter} from './Marked'
-// import {createMarkUp} from './Marked'
 
 export const Preview = () => {
   const classes = useStyles()
